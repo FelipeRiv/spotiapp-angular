@@ -1,7 +1,7 @@
-# SpotiApp-angular
+# SpotiApp-Angular
 SpotiApp made with Angular to request music data form Spotify API
 
-# You can see it working right here
+## You can see it working right here
 [SpotiApp](https://spotiapp-ag.netlify.app/#/home)
 `````
 https://spotiapp-ag.netlify.app/#/home
