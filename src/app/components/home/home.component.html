@@ -1,0 +1,6 @@
+<app-loading *ngIf="loading"></app-loading>
+<h1 *ngIf="!loading">Top Tracks</h1>
+<app-errormessage [msjError]="msjError" *ngIf="error"></app-errormessage>
+
+<app-tarjetas [items]="nuevasCanciones"></app-tarjetas>
+
