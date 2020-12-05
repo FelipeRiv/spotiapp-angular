@@ -26,7 +26,7 @@ export class HomeComponent implements OnInit {
                   this.loading = false;
 
                 }, (error): any => {
-
+                  localStorage.clear();
                   if (!spotify.getThisToken() || spotify.getThisToken().length === 0) {
                     this.re();
                   } else {
