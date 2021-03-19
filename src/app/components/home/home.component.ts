@@ -41,7 +41,7 @@ export class HomeComponent implements OnInit {
    re(): void{
      setTimeout( () => {
         window.location.reload();
-     }, 2500);
+     }, 3400);
    }
 
   ngOnInit(): void {
